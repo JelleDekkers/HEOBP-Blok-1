@@ -1,0 +1,4 @@
+﻿  Opdracht 1.cpp
+Opdracht 1.obj : error LNK2019: unresolved external symbol "public: __thiscall Semester::Semester(int,int)" (??0Semester@@QAE@HH@Z) referenced in function _main
+Opdracht 1.obj : error LNK2019: unresolved external symbol "public: __thiscall Semester::~Semester(void)" (??1Semester@@QAE@XZ) referenced in function _main
+D:\Users\Jelle Dekkers\Documents\School\HKU\Jaar 2\HEOBP\Opdracht 1\Debug\Opdracht 1.exe : fatal error LNK1120: 2 unresolved externals
