@@ -9,7 +9,7 @@ public:
 	Module(string name, int ec);
 	~Module();
 	string getName();
-	void AppointTeacher(Docent teacher);
+	void AppointTeacher(Docent* teacher);
 	void AddStudent(Student student);
 	void RemoveStudent(Student student);
 	void printInfo();
@@ -20,7 +20,7 @@ public:
 private:
 	string name;
 	int ec;
-	Docent * teacher;
+	Docent* teacher;
 	vector<Student> students;
 };
 

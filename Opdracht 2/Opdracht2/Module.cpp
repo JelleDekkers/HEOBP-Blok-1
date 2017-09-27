@@ -12,8 +12,8 @@ string Module::getName() {
 	return name;
 }
 
-void Module::AppointTeacher(Docent teacher) {
-	this->teacher = &teacher;
+void Module::AppointTeacher(Docent* teacher) {
+	this->teacher = teacher;
 }
 
 void Module::AddStudent(Student student) {
@@ -34,7 +34,9 @@ void Module::RemoveStudent(Student student) {
 
 void Module::printInfo() {
 	cout << "Module " << name << "(" << ec << "EC):" << endl;
-	//cout << "-Teacher: " << endl << getTeacher().getName() << endl;
+	string teacherName = "";
+	teacherName = getTeacher().getName();
+	cout << "-Teacher: " << endl << "\t" << teacherName << endl;
 	cout << "-Students: " << endl;
 	vector<Student>::iterator it = students.begin();
 	while (it != students.end()) {
