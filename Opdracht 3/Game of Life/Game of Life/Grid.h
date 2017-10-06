@@ -13,7 +13,7 @@ struct intVector2 {
 
 class Grid {
 
-const char livingSymbol = 'O';
+const char livingSymbol = 'O'; // (char)219;
 const char deadSymbol = ' ';
 
 const int maxNeighbours = 8;
