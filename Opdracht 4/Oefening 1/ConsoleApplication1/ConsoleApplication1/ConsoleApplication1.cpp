@@ -1,23 +1,35 @@
-// ConsoleApplication1.cpp : Defines the entry point for the console application.
-//
-
 #include "stdafx.h"
+#include "Queue.h"
 #include <string>
 #include <iostream>
 using namespace std;
 
-string stringArray[] = { "abcd", "abcde", "abc", "a", "ab" };
-float floatArray[] = { 4.5, 5.2, 3.3, 5.6, 1.58 };
+
 
 template <typename T, size_t SIZE> void orderBySmallest(T(&array)[SIZE]);
 template <typename T, size_t SIZE> void orderByLargest(T(&array)[SIZE]);
 
 int main() {
-	//orderBySmallest(stringArray);
-	orderByLargest(stringArray);
+	string stringArray[] = { "abcd", "abcde", "abc", "a", "ab" };
+	float floatArray[] = { 4.5f, 5.2f, 3.3f, 5.6f, 1.58f };
 
-	orderBySmallest(floatArray);
+	//orderBySmallest(stringArray);
+	//orderByLargest(stringArray);
+	//orderBySmallest(floatArray);
 	//orderByLargest(floatArray);
+
+	Queue<int> queue;
+	queue.enqueue(4);
+	queue.enqueue(5);
+	queue.enqueue(6);
+	cout << "queue size: " << queue.getSize() << endl;
+	cout << "first element: " << queue.peek() << endl;
+	cout << "last element: " << queue.getLast() << endl;
+	queue.dequeue();
+	queue.enqueue(9);
+	cout << "queue size: " << queue.getSize() << endl;
+	cout << "first element: " << queue.peek() << endl;
+	cout << "last element: " << queue.getLast() << endl;
 
     return 0;
 }

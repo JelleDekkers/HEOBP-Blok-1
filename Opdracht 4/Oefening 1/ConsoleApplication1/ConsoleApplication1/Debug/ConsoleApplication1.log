@@ -1,5 +1,7 @@
 ﻿  ConsoleApplication1.cpp
-d:\users\jelle dekkers\documents\school\hku\jaar 2\heobp\heobp-blok-1\opdracht 4\oefening 1\consoleapplication1\consoleapplication1\consoleapplication1.cpp(10): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
-d:\users\jelle dekkers\documents\school\hku\jaar 2\heobp\heobp-blok-1\opdracht 4\oefening 1\consoleapplication1\consoleapplication1\consoleapplication1.cpp(10): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Generating Code...
+  Compiling...
+  Queue.cpp
+  Generating Code...
   ConsoleApplication1.vcxproj -> D:\Users\Jelle Dekkers\Documents\School\HKU\Jaar 2\HEOBP\HEOBP-Blok-1\Opdracht 4\Oefening 1\ConsoleApplication1\Debug\ConsoleApplication1.exe
   ConsoleApplication1.vcxproj -> D:\Users\Jelle Dekkers\Documents\School\HKU\Jaar 2\HEOBP\HEOBP-Blok-1\Opdracht 4\Oefening 1\ConsoleApplication1\Debug\ConsoleApplication1.pdb (Partial PDB)
