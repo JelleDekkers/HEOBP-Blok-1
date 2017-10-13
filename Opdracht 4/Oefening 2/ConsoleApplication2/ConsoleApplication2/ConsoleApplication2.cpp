@@ -12,9 +12,9 @@ int main() {
 	orc.render();
 	Farmer farmer(&orc);
 	farmer.render();
-	Soldier soldier(&orc);
+	Soldier soldier(&farmer);
 	soldier.render();
-	Shaman shaman(&orc);
+	Shaman shaman(&soldier);
 	shaman.render();
     return 0;
 }

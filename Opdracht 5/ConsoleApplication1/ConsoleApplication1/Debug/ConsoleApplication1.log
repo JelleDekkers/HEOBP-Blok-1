@@ -1,0 +1,10 @@
+﻿  Transaction.cpp
+  BankAccount.cpp
+d:\users\jelle dekkers\documents\school\hku\jaar 2\heobp\heobp-blok-1\opdracht 5\consoleapplication1\consoleapplication1\bankaccount.cpp(4): error C2789: 'BankAccount::test': an object of const-qualified type must be initialized
+  d:\users\jelle dekkers\documents\school\hku\jaar 2\heobp\heobp-blok-1\opdracht 5\consoleapplication1\consoleapplication1\bankaccount.h(18): note: see declaration of 'BankAccount::test'
+d:\users\jelle dekkers\documents\school\hku\jaar 2\heobp\heobp-blok-1\opdracht 5\consoleapplication1\consoleapplication1\bankaccount.cpp(32): error C2662: 'const long double Transaction::getAmount(void)': cannot convert 'this' pointer from 'const Transaction' to 'Transaction &'
+  d:\users\jelle dekkers\documents\school\hku\jaar 2\heobp\heobp-blok-1\opdracht 5\consoleapplication1\consoleapplication1\bankaccount.cpp(32): note: Conversion loses qualifiers
+  Generating Code...
+  Compiling...
+  ConsoleApplication1.cpp
+  Generating Code...

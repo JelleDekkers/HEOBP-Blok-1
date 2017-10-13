@@ -1,0 +1,7 @@
+D:\Users\Jelle Dekkers\Documents\School\HKU\Jaar 2\HEOBP\HEOBP-Blok-1\Opdracht 4\Oefening 2\DecoraterPractice\DecoraterPractice\bin\Debug\DecoraterPractice.exe.config
+D:\Users\Jelle Dekkers\Documents\School\HKU\Jaar 2\HEOBP\HEOBP-Blok-1\Opdracht 4\Oefening 2\DecoraterPractice\DecoraterPractice\bin\Debug\DecoraterPractice.exe
+D:\Users\Jelle Dekkers\Documents\School\HKU\Jaar 2\HEOBP\HEOBP-Blok-1\Opdracht 4\Oefening 2\DecoraterPractice\DecoraterPractice\bin\Debug\DecoraterPractice.pdb
+D:\Users\Jelle Dekkers\Documents\School\HKU\Jaar 2\HEOBP\HEOBP-Blok-1\Opdracht 4\Oefening 2\DecoraterPractice\DecoraterPractice\obj\Debug\DecoraterPractice.csprojResolveAssemblyReference.cache
+D:\Users\Jelle Dekkers\Documents\School\HKU\Jaar 2\HEOBP\HEOBP-Blok-1\Opdracht 4\Oefening 2\DecoraterPractice\DecoraterPractice\obj\Debug\DecoraterPractice.csproj.CoreCompileInputs.cache
+D:\Users\Jelle Dekkers\Documents\School\HKU\Jaar 2\HEOBP\HEOBP-Blok-1\Opdracht 4\Oefening 2\DecoraterPractice\DecoraterPractice\obj\Debug\DecoraterPractice.exe
+D:\Users\Jelle Dekkers\Documents\School\HKU\Jaar 2\HEOBP\HEOBP-Blok-1\Opdracht 4\Oefening 2\DecoraterPractice\DecoraterPractice\obj\Debug\DecoraterPractice.pdb
