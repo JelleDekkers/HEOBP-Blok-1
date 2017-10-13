@@ -1,10 +1,21 @@
-﻿  Transaction.cpp
-  BankAccount.cpp
-d:\users\jelle dekkers\documents\school\hku\jaar 2\heobp\heobp-blok-1\opdracht 5\consoleapplication1\consoleapplication1\bankaccount.cpp(4): error C2789: 'BankAccount::test': an object of const-qualified type must be initialized
-  d:\users\jelle dekkers\documents\school\hku\jaar 2\heobp\heobp-blok-1\opdracht 5\consoleapplication1\consoleapplication1\bankaccount.h(18): note: see declaration of 'BankAccount::test'
-d:\users\jelle dekkers\documents\school\hku\jaar 2\heobp\heobp-blok-1\opdracht 5\consoleapplication1\consoleapplication1\bankaccount.cpp(32): error C2662: 'const long double Transaction::getAmount(void)': cannot convert 'this' pointer from 'const Transaction' to 'Transaction &'
-  d:\users\jelle dekkers\documents\school\hku\jaar 2\heobp\heobp-blok-1\opdracht 5\consoleapplication1\consoleapplication1\bankaccount.cpp(32): note: Conversion loses qualifiers
-  Generating Code...
-  Compiling...
-  ConsoleApplication1.cpp
-  Generating Code...
+﻿  BankAccount.cpp
+d:\users\jelle dekkers\documents\school\hku\jaar 2\heobp\heobp-blok-1\opdracht 5\consoleapplication1\consoleapplication1\bankaccount.cpp(52): error C2679: binary '=': no operator found which takes a right-hand operand of type 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>' (or there is no acceptable conversion)
+          with
+          [
+              _Ty=Transaction
+          ]
+  d:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\vector(358): note: could be 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> &std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>::operator =(std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> &&)'
+          with
+          [
+              _Ty=Transaction
+          ]
+  d:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\vector(358): note: or       'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> &std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>::operator =(const std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> &)'
+          with
+          [
+              _Ty=Transaction
+          ]
+  d:\users\jelle dekkers\documents\school\hku\jaar 2\heobp\heobp-blok-1\opdracht 5\consoleapplication1\consoleapplication1\bankaccount.cpp(52): note: while trying to match the argument list '(std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>, std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>)'
+          with
+          [
+              _Ty=Transaction
+          ]

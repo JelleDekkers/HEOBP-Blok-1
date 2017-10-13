@@ -6,9 +6,9 @@ class Transaction {
 public:
 	Transaction(long double amount);
 	~Transaction();
-	const long double getAmount();
-	const string getDate();
-	const string getTime();
+	const long double getAmount() const;
+	const string getDate() const;
+	const string getTime() const;
 
 private:
 	long double amount;

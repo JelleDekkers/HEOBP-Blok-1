@@ -9,14 +9,14 @@ Transaction::Transaction(long double amount) {
 
 Transaction::~Transaction() { }
 
-const long double Transaction::getAmount() {
+const long double Transaction::getAmount() const {
 	return amount;
 }
 
-const string Transaction::getDate() {
+const string Transaction::getDate() const {
 	return date;
 }
 
-const string Transaction::getTime() {
+const string Transaction::getTime() const {
 	return time;
 }
