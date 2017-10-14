@@ -9,7 +9,18 @@ BankAccount::BankAccount() {
 BankAccount::~BankAccount() { }
 
 void BankAccount::printTransactionHistory() const {
-	vector<Transaction>::iterator i;
+	
+	for (auto const& value : transactionHistory) {
+		string action;
+		if (value.getAmount() > 0)
+			action = "Deposited ";
+		else
+			action = "Withdrawn ";
+		cout << setprecision(2) << fixed;
+		cout << action << euroSign << " " << value.getAmount() << ", on: " << value.getDate() << " at: " << value.getTime() << endl;
+	}
+
+	/*vector<Transaction>::iterator i;
 	for (i = transactionHistory.begin(); i != transactionHistory.end(); ++i) {
 		string action;
 		if (i->getAmount() > 0)
@@ -18,7 +29,7 @@ void BankAccount::printTransactionHistory() const {
 			action = "Withdrawn ";
 		cout << setprecision(2) << fixed;
 		cout << action << euroSign << " " <<i->getAmount() <<   ", on: " << i->getDate() << " at: " << i->getTime() << endl;
-	}
+	}*/
 }
 
 void BankAccount::printBalance() const {

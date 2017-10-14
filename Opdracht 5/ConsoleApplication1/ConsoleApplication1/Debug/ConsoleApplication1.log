@@ -1,21 +1,3 @@
 ﻿  BankAccount.cpp
-d:\users\jelle dekkers\documents\school\hku\jaar 2\heobp\heobp-blok-1\opdracht 5\consoleapplication1\consoleapplication1\bankaccount.cpp(52): error C2679: binary '=': no operator found which takes a right-hand operand of type 'std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>' (or there is no acceptable conversion)
-          with
-          [
-              _Ty=Transaction
-          ]
-  d:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\vector(358): note: could be 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> &std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>::operator =(std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> &&)'
-          with
-          [
-              _Ty=Transaction
-          ]
-  d:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\vector(358): note: or       'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> &std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>::operator =(const std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> &)'
-          with
-          [
-              _Ty=Transaction
-          ]
-  d:\users\jelle dekkers\documents\school\hku\jaar 2\heobp\heobp-blok-1\opdracht 5\consoleapplication1\consoleapplication1\bankaccount.cpp(52): note: while trying to match the argument list '(std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>, std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>)'
-          with
-          [
-              _Ty=Transaction
-          ]
+  ConsoleApplication1.vcxproj -> D:\Users\Jelle Dekkers\Documents\School\HKU\Jaar 2\HEOBP\HEOBP-Blok-1\Opdracht 5\ConsoleApplication1\Debug\ConsoleApplication1.exe
+  ConsoleApplication1.vcxproj -> D:\Users\Jelle Dekkers\Documents\School\HKU\Jaar 2\HEOBP\HEOBP-Blok-1\Opdracht 5\ConsoleApplication1\Debug\ConsoleApplication1.pdb (Partial PDB)
