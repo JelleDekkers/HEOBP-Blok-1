@@ -1,4 +1,4 @@
-#include "stdafx.h"
+<#include "stdafx.h"
 #include "NPC.h"
 #include "Orc.h"
 #include "Elf.h"

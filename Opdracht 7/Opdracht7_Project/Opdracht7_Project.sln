@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Opdracht7_Project", "Opdracht7_Project\Opdracht7_Project.vcxproj", "{3F5F36C1-5B6A-488B-8B4A-9BA9F4493AF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{433EE88A-199B-4769-9838-FAEFF5BD8D7C}"
+	ProjectSection(SolutionItems) = preProject
+		Opdracht7_Project\Decorator.cpp = Opdracht7_Project\Decorator.cpp
+		Opdracht7_Project\Decorator.h = Opdracht7_Project\Decorator.h
+		Opdracht7_Project\Elf.cpp = Opdracht7_Project\Elf.cpp
+		Opdracht7_Project\Elf.h = Opdracht7_Project\Elf.h
+		Opdracht7_Project\Factory.cpp = Opdracht7_Project\Factory.cpp
+		Opdracht7_Project\Factory.h = Opdracht7_Project\Factory.h
+		Opdracht7_Project\Farmer.cpp = Opdracht7_Project\Farmer.cpp
+		Opdracht7_Project\Farmer.h = Opdracht7_Project\Farmer.h
+		Opdracht7_Project\NPC.cpp = Opdracht7_Project\NPC.cpp
+		Opdracht7_Project\NPC.h = Opdracht7_Project\NPC.h
+		Opdracht7_Project\Orc.cpp = Opdracht7_Project\Orc.cpp
+		Opdracht7_Project\Orc.h = Opdracht7_Project\Orc.h
+		Opdracht7_Project\Shaman.cpp = Opdracht7_Project\Shaman.cpp
+		Opdracht7_Project\Shaman.h = Opdracht7_Project\Shaman.h
+		Opdracht7_Project\Soldier.cpp = Opdracht7_Project\Soldier.cpp
+		Opdracht7_Project\Soldier.h = Opdracht7_Project\Soldier.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F5F36C1-5B6A-488B-8B4A-9BA9F4493AF6}.Debug|x64.ActiveCfg = Debug|x64
+		{3F5F36C1-5B6A-488B-8B4A-9BA9F4493AF6}.Debug|x64.Build.0 = Debug|x64
+		{3F5F36C1-5B6A-488B-8B4A-9BA9F4493AF6}.Debug|x86.ActiveCfg = Debug|Win32
+		{3F5F36C1-5B6A-488B-8B4A-9BA9F4493AF6}.Debug|x86.Build.0 = Debug|Win32
+		{3F5F36C1-5B6A-488B-8B4A-9BA9F4493AF6}.Release|x64.ActiveCfg = Release|x64
+		{3F5F36C1-5B6A-488B-8B4A-9BA9F4493AF6}.Release|x64.Build.0 = Release|x64
+		{3F5F36C1-5B6A-488B-8B4A-9BA9F4493AF6}.Release|x86.ActiveCfg = Release|Win32
+		{3F5F36C1-5B6A-488B-8B4A-9BA9F4493AF6}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0D08ADB-52E6-4D29-B584-71F2ED0708ED}
+	EndGlobalSection
+EndGlobal
