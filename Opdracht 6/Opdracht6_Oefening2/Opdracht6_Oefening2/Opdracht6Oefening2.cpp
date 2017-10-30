@@ -3,6 +3,7 @@
 #include <thread>
 #include <iostream>
 #include <mutex>
+#include <condition_variable>
 
 using namespace std;
 
@@ -10,27 +11,31 @@ int netto = 0;
 bool producerThreadIsDone = false;
 queue<int> goods;
 mutex _mutex;
+condition_variable condition;
 
 void producer() {
+	unique_lock<mutex> lock(_mutex);
+
 	for (int i = 0; i < 500; ++i) {
-		_mutex.lock();
 		goods.push(i);
 		netto++;
 		cout << "producer: " << netto << endl;
-		_mutex.unlock();
+		condition.wait(lock);
 	}
 
+	lock.unlock();
 	producerThreadIsDone = true;
 }
 
 void consumer() {
 	while (!producerThreadIsDone) {
 		while (!goods.empty()) {
-			_mutex.lock();
+			unique_lock<mutex> lock(_mutex);
 			goods.pop();
 			netto--;
 			cout << "consumer: " << netto << endl;
-			_mutex.unlock();
+			condition.notify_one();
+			lock.unlock();
 		}
 	}
 }
